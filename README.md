@@ -1,4 +1,4 @@
-# Paytm Clone – React + Vite + Express + MongoDB
+# Swift-Pay – React + Vite + Express + MongoDB
 
 This project is a Paytm-like application with a React frontend (using Vite) and an Express backend, connected to MongoDB.
 
