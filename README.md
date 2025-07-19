@@ -20,22 +20,6 @@ git clone <repo-url>
 cd Paytm
 ```
 
-### 2. Install backend dependencies
-
-```sh
-cd backend
-npm install
-```
-
-### 3. Install frontend dependencies
-
-```sh
-cd ../fontend
-npm install
-```# Paytm Clone – React + Vite + Express + MongoDB
-
-This project is a Paytm-like application with a React frontend (using Vite) and an Express backend, connected to MongoDB.
-
 ## Project Structure
 
 ```
