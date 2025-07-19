@@ -101,18 +101,6 @@ npm run dev
 
 ---
 
-## Project Flow Diagram
-
-The following diagram illustrates the flow of data and actions in the project:
-
-```mermaid
-graph TD
-    A[User] -->|Signup/Signin| B(Frontend React)
-    B -->|API Calls| C(Express Backend)
-    C -->|DB Queries| D(MongoDB)
-    C -->|Response| B
-    B -->|UI
-
 ### 4. Start MongoDB
 
 - You can use the provided Dockerfile in `Mongodb/` or run MongoDB locally.
