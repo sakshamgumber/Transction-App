@@ -52,18 +52,6 @@ cd ../fontend
 npm install
 ```
 
-### 4. Start MongoDB
-
-- You can use the provided Dockerfile in `Mongodb/` or run MongoDB locally.
-
-#### Using Docker:
-
-```sh
-cd ../Mongodb
-docker build -t paytm-mongo .
-docker run -d -p 27017:27017 paytm-mongo
-```
-
 #### Or, ensure MongoDB is running locally on port 27017.
 
 - Frontend runs on [http://localhost:5173](http://localhost:5173)
