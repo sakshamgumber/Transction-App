@@ -82,20 +82,6 @@ docker run -d -p 27017:27017 paytm-mongo
 
 #### Or, ensure MongoDB is running locally on port 27017.
 
-### 5. Start backend server
-
-```sh
-cd ../backend
-node index.js
-```
-
-### 6. Start frontend server
-
-```sh
-cd ../fontend
-npm run dev
-```
-
 - Frontend runs on [http://localhost:5173](http://localhost:5173)
 - Backend runs on [http://localhost:3000](http://localhost:3000)
 
